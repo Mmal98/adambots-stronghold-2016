@@ -9,34 +9,17 @@ import com.github.adambots.stronghold2016.auton.Barrier_Drawbridge;
 import com.github.adambots.stronghold2016.auton.Barrier_RoughTerrain;
 
 import com.github.adambots.stronghold2016.auton.AutonMain;
-<<<<<<< HEAD
-//<<<<<<< HEAD
-=======
-/*<<<<<<< HEAD
->>>>>>> refs/remotes/Adambots-245/master
-*/
+
 import com.github.adambots.stronghold2016.auton.Forward;
 import com.github.adambots.stronghold2016.auton.farLeft;
 import com.github.adambots.stronghold2016.auton.farRight;
 import com.github.adambots.stronghold2016.auton.left;
 import com.github.adambots.stronghold2016.auton.right;
 import com.github.adambots.stronghold2016.auton.superRight;
-<<<<<<< HEAD
-//=======
-=======
-/*<<<<<<< HEAD
->>>>>>> refs/remotes/Adambots-245/master
 
-*/
 import com.github.adambots.stronghold2016.camera.AutoTarget;
 import com.github.adambots.stronghold2016.camera.Target;
 
-/*
-<<<<<<< HEAD
-//>>>>>>> refs/remotes/Adambots-245/master
-=======
->>>>>>> refs/remotes/Adambots-245/master
-*/
 import com.github.adambots.stronghold2016.drive.Drive;
 import com.github.adambots.stronghold2016.shooter.Shooter;
 
@@ -68,8 +51,8 @@ public class Robot extends IterativeRobot {
 	 * used for any initialization code.
 	 */
 	public void robotInit() {
-		chooser = new SendableChooser();
 		compressor = new Compressor();
+		chooser = new SendableChooser();
 		chooser.addDefault("Forward", new Forward());
 		chooser.addObject("left two positions", new farLeft());
 		chooser.addObject("left one positions", new left());
@@ -96,7 +79,7 @@ public class Robot extends IterativeRobot {
 		Actuators.init();
 
 
-	}
+	}                                      
 	/**
 	 * This function is called once each time the robot enters Disabled mode.
 	 * You can use it to reset any subsystem information you want to clear when
