@@ -12,7 +12,9 @@ import com.github.adambots.stronghold2016.auton.AutonMain;
 <<<<<<< HEAD
 //<<<<<<< HEAD
 =======
+/*<<<<<<< HEAD
 >>>>>>> refs/remotes/Adambots-245/master
+*/
 import com.github.adambots.stronghold2016.auton.Forward;
 import com.github.adambots.stronghold2016.auton.farLeft;
 import com.github.adambots.stronghold2016.auton.farRight;
@@ -22,15 +24,19 @@ import com.github.adambots.stronghold2016.auton.superRight;
 <<<<<<< HEAD
 //=======
 =======
+/*<<<<<<< HEAD
 >>>>>>> refs/remotes/Adambots-245/master
 
+*/
 import com.github.adambots.stronghold2016.camera.AutoTarget;
 import com.github.adambots.stronghold2016.camera.Target;
 
+/*
 <<<<<<< HEAD
 //>>>>>>> refs/remotes/Adambots-245/master
 =======
 >>>>>>> refs/remotes/Adambots-245/master
+*/
 import com.github.adambots.stronghold2016.drive.Drive;
 import com.github.adambots.stronghold2016.shooter.Shooter;
 
