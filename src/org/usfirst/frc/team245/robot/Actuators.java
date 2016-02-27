@@ -30,7 +30,7 @@ public class Actuators {
 	private static final int DRIVE_MOTOR_ACCEPTABLE_ERROR = 0;
 	private static final float PEAK_REVERSE_VOLTAGE = -12f;
 	private static final float PEAK_FORWARD_VOLTAGE = +12f;
-	private static final int CODES_PER_REV = (int) (620);
+	private static final int CODES_PER_REV = (int) (630);//620
 	
 	//The PID constants for right drive motors
 	private static final double RIGHT_DRIVE_KP = 2;
@@ -136,12 +136,10 @@ public class Actuators {
 		return rightDriveMotor;
 	}
 
-	// /**
-	// * @return the rightDrive2
-	// */
-	// public static CANTalon getRightDriveMotor2() {
-	// return rightDriveMotor2;
-	// }
+	//needed for Dashboard
+	 public static CANTalon getRightDriveMotor2() {
+	 return rightDriveMotor2;
+	 }
 
 	/**
 	 * @return the leftDrive
@@ -150,12 +148,11 @@ public class Actuators {
 		return leftDriveMotor;
 	}
 
-	// /**
-	// * @return the leftDrive2
-	// */
-	// public static CANTalon getLeftDriveMotor2() {
-	// return leftDriveMotor2;
-	// }
+	
+	//needed for Dashboard
+	 public static CANTalon getLeftDriveMotor2() {
+	 return leftDriveMotor2;
+	 }
 
 	/**
 	 * @return the armWinch1
